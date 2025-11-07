@@ -16,7 +16,7 @@ client = openai.OpenAI(
     api_key=os.environ.get("CEREBRAS_API_KEY")
 )
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY","AIzaSyCVamDnNAeezeywfPTet9t_Fvd_DTTIuu0"))
-co = cohere.Client('QNug1dWb6KLsMJxuB3xZ40l6EdyCpGur1iz1mJON')
+co = cohere.Client('[REDACTED_BY_KEYGUARDIAN]')
 
 st.title("Insight AI")
 
